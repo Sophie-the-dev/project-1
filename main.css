@@ -12,140 +12,19 @@
     max-width: 1100px;
     width:100%;
 }
-.header_nav{
-    display:flex;
+.navigation-grid{
+    margin: 0 auto;
+    max-width: 1050px;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(7, 150px);
+    height: 60px;
+    
+}
+.navigation-grid > * {
+    outline:2px solid #deded6;
 }
 .logo{
-    outline:2px solid #DEDED6;
-    max-width: 132px;
-    width:100%;
-    height:60px;
-    display: flex;
-    
-}
-.logo h3{
-    margin-top: 17px;
-    font-family:Sigmar One;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 13px;
-}
-.header_nav p{
-    margin-left: 45px;
-    margin-top: 18px;
-    font-family:Roboto;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 141%;
-    color: #989890;
-}
-.special_order p{
-    margin-left: 17px;
-    margin-top: 18px;
-    font-family:Roboto;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 141%;
-    color: #989890;
-}
-.menu{
-    max-width:137px;
-    width:100%;
-    height:60px;
-    outline:2px solid #DEDED6;
-    
-}
-.special_order{
-    max-width:159px;
-    width:100%;
-    height:60px;
-    outline:2px solid #DEDED6; 
-}
-.about{
-    outline: 2px solid #deded6;
-    width: 115px;
-    height: 60px;
-}
-.about p{
-    margin-top:18px;
-    margin-left: 30px;
-}
-.reviews{
-    width:137px;
-    outline: 2px solid #deded6;
-}
-.reviews p{
-    margin-left: 33px;
-}
-.contacts{
-    width:170px;
-    outline: 2px solid #deded6;
-}
-.contacts p{
-    margin-left:41px;
-    
-}
-.personal{
-    outline:2px solid #deded6;
-   display:flex ;
-   justify-content: center;
-   align-items: center;
-   max-width:280px;
-   width:100%;
-   
-}
-.personalList{
-  padding:0;
-}
-.personal li{
-    color:#FFBEE8;
-    display:inline-block;
-}
-.header_main_page{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-.sides{
-    outline:2px solid #deded6;
-    width:550px;
-    height:487px;
-}
-.left_side{
-    background-color: #FFBEE8;
-  display:flex;
-  justify-content: center;
-}
-.ls-div{
-    background-color: #FFBEE8;
-    margin-top: 60px;
-    width:325px;
-    height:288px;
-}
-.ls-div h1{
-    background-color: #FFBEE8;
-    font-family: Sigmar One;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 109%;
-    color: #696061;
-}
-.ls-div p{
-    background-color: #FFBEE8;
-    margin-top: 16px;
-    margin-bottom: 36px;
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
-    color: #696061;
-}
-.ls-div button{
-    height:15px;
-    margin-left: 28px;
-    padding: 0;
-    border: none;
-}
-.right-side img{
-    margin-left: 54px;
+    display:flex;
+
 }
